@@ -207,7 +207,7 @@ rec {
 
   # Ghcjs
   ghcjs = {
-    config = "js-unknown-none-ghcjs";
+    config = "js-unknown-ghcjs";
     platform = {};
   };
 }
