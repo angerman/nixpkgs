@@ -58,6 +58,9 @@ in stdenv.mkDerivation (rec {
     ++ [ zlib ];
 
   patches = [
+    # Fix llvm being miscompiled by some gccs. See llvm/llvm-project#49955
+    ./fix-llvm-issue-49955.patch
+    
     ./gnu-install-dirs.patch
     # On older CPUs (e.g. Hydra/wendy) we'd be getting an error in this test.
     (fetchpatch {
