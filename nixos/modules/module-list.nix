@@ -1270,6 +1270,7 @@
   ./services/web-servers/merecat.nix
   ./services/web-servers/mighttpd2.nix
   ./services/web-servers/minio.nix
+  ./services/web-servers/minio2.nix
   ./services/web-servers/molly-brown.nix
   ./services/web-servers/nginx/default.nix
   ./services/web-servers/nginx/gitweb.nix
